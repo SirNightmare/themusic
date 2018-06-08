@@ -44,4 +44,4 @@ Music.start(client, {
     enableQueueStat: true,
 });
 
-client.login(settings.token);
+client.login(process.env.BOT_TOKEN);
